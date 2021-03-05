@@ -16,6 +16,7 @@ body {
     height: 100%;
     font-family: 'Times New Roman', Times, serif;
     transition: opacity 1s cubic-bezier(0.4, 0.0, 0.2, 1);
+    overflow-y: hidden;
 }
 
 .content.hide {
