@@ -1,0 +1,32 @@
+html,
+body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+#screen {
+    height: 100%;
+    background-color: black;
+}
+
+.content {
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    transition: opacity 1s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.content.hide {
+    opacity: 0%;
+}
+
+.content div .container {
+    transition: color 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    color: rgba(255, 255, 255, 1)!important;
+}
+
+.content.hide div .container {
+    color: rgba(255, 255, 255, 0)!important;
+}

@@ -1,0 +1,5 @@
+@media (min-width: 992px) {
+    .profile-title {
+        max-height: 106px;
+    }
+}
