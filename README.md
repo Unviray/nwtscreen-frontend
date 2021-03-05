@@ -1,6 +1,29 @@
-# Getting Started with Create React App
+# Ebaiboly (frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Backend: [https://github.com/Unviray/ebaiboly-backend](https://github.com/Unviray/ebaiboly-backend)
+## Installing
+
+### Using yarn (recommended)
+```shell
+$ git clone https://github.com/Unviray/ebaiboly-frontend
+$ cd ebaiboly-frontend/
+$ yarn global add serve
+```
+### Using npm
+```shell
+$ git clone https://github.com/Unviray/ebaiboly-frontend
+$ cd ebaiboly-frontend/
+$ npm install -g serve
+```
+
+## Run
+
+Install and run [ebaiboly-backend](https://github.com/Unviray/ebaiboly-backend) before you do this
+```shell
+$ serve -s build
+```
+Then open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your favorite web browser
+
 
 ## Available Scripts
 
