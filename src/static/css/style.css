@@ -1,5 +1,4 @@
-@media (min-width: 992px) {
-    .profile-title {
-        max-height: 106px;
-    }
+.book-button {
+  background-color: #eeeeee;
+  color: #555555
 }
