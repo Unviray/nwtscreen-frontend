@@ -1,24 +1,24 @@
-# Ebaiboly (frontend)
+# BScreen (frontend)
 
-Backend: [https://github.com/Unviray/ebaiboly-backend](https://github.com/Unviray/ebaiboly-backend)
+Backend: [https://github.com/Unviray/bscreen-backend](https://github.com/Unviray/bscreen-backend)
 ## Installing
 
 ### Using yarn (recommended)
 ```shell
-$ git clone https://github.com/Unviray/ebaiboly-frontend
-$ cd ebaiboly-frontend/
+$ git clone https://github.com/Unviray/bscreen-frontend
+$ cd bscreen-frontend/
 $ yarn global add serve
 ```
 ### Using npm
 ```shell
-$ git clone https://github.com/Unviray/ebaiboly-frontend
-$ cd ebaiboly-frontend/
+$ git clone https://github.com/Unviray/bscreen-frontend
+$ cd bscreen-frontend/
 $ npm install -g serve
 ```
 
 ## Run
 
-Install and run [ebaiboly-backend](https://github.com/Unviray/ebaiboly-backend) before you do this
+Install and run [bscreen-backend](https://github.com/Unviray/bscreen-backend) before you do this
 ```shell
 $ serve -s build
 ```
