@@ -19,7 +19,7 @@ const MyNavbar = () => {
         <Navbar variant="light" className="bg-light mb-3">
           <Container>
             <Link to="/" className="text-decoration-none">
-              <Navbar.Brand className="fw-bold">BScreen</Navbar.Brand>
+              <Navbar.Brand className="fw-bold">NwtScreen</Navbar.Brand>
             </Link>
             <div className="d-flex">
               <Button variant="light" onClick={() => { dispatch(hide()) }}>

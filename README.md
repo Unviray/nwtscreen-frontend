@@ -1,24 +1,24 @@
-# BScreen (frontend)
+# NwtScreen (frontend)
 
-Backend: [https://github.com/Unviray/bscreen-backend](https://github.com/Unviray/bscreen-backend)
+Backend: [https://github.com/Unviray/nwtcreen-backend](https://github.com/Unviray/nwtcreen-backend)
 ## Installing
 
 ### Using yarn (recommended)
 ```shell
-$ git clone https://github.com/Unviray/bscreen-frontend
-$ cd bscreen-frontend/
+$ git clone https://github.com/Unviray/nwtcreen-frontend
+$ cd nwtcreen-frontend/
 $ yarn global add serve
 ```
 ### Using npm
 ```shell
-$ git clone https://github.com/Unviray/bscreen-frontend
-$ cd bscreen-frontend/
+$ git clone https://github.com/Unviray/nwtcreen-frontend
+$ cd nwtcreen-frontend/
 $ npm install -g serve
 ```
 
 ## Run
 
-Install and run [bscreen-backend](https://github.com/Unviray/bscreen-backend) before you do this
+Install and run [nwtcreen-backend](https://github.com/Unviray/nwtcreen-backend) before you do this
 ```shell
 $ serve -s build
 ```
